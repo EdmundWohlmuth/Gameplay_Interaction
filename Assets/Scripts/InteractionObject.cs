@@ -26,7 +26,7 @@ public class InteractionObject : MonoBehaviour
 
     public void Nothing()
     {
-
+        Debug.LogWarning("Object " + this.gameObject.name + " has no type set.");
     }
     public void Info()
     {

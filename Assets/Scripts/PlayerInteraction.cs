@@ -20,6 +20,7 @@ public class PlayerInteraction : MonoBehaviour
     private void CheckInteraction()
     {
         Debug.Log("this is " + currentInterObj.name);
+
         if (currentInteractObjScript.interType == InteractionObject.InteractableType.nothing)
         {
             //currentInteractObjScript.Nothing();
