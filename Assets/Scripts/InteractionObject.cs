@@ -31,5 +31,22 @@ public class InteractionObject : MonoBehaviour
     public void Info()
     {
         infoText.text = infoMessage;
+        StartCoroutine(ShowInfo(infoMessage, 2.5f));
+    }
+    public void Pickup()
+    {
+        this.gameObject.SetActive(false);
+    }
+    public void Dialouge()
+    {
+        
+    }
+
+    IEnumerator ShowInfo(string infoMessage, float waitTime)
+    {
+        infoText.text = infoMessage;
+        yield return new WaitForSeconds(waitTime);
+        infoText.text = null;
+        
     }
 }

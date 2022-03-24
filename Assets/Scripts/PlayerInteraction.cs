@@ -29,6 +29,14 @@ public class PlayerInteraction : MonoBehaviour
         {
             currentInteractObjScript.Info();
         }
+        else if (currentInteractObjScript.interType == InteractionObject.InteractableType.pickup)
+        {
+            currentInteractObjScript.Pickup();
+        }
+        else if (currentInteractObjScript.interType == InteractionObject.InteractableType.dialoge)
+        {
+            currentInteractObjScript.Dialouge();
+        }
     }
 
     private void OnTriggerStay2D(Collider2D collision)
