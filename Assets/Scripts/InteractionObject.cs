@@ -22,7 +22,7 @@ public class InteractionObject : MonoBehaviour
     private Text infoText;
 
     [Header("Dialogue Messages")]
-    public string name;
+    public string dialogueName;
     [TextArea]
     public string[] sentances;
 

@@ -31,9 +31,9 @@ public class DialogeManager : MonoBehaviour
 
         foreach (var currentLine in sentances)
         {
-            dialogue.Enqueue(currentLine);
-            DisplayNextSentance();
+            dialogue.Enqueue(currentLine);           
         }
+        DisplayNextSentance();
     }
 
     public void DisplayNextSentance()
