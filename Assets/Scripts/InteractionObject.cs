@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class InteractionObject : MonoBehaviour
 {
+    public DialogeManager dialogeManager;
+
     public enum  InteractableType
     {
         nothing,
@@ -18,6 +20,12 @@ public class InteractionObject : MonoBehaviour
     [Header("Simple info Message")]
     public string infoMessage;
     private Text infoText;
+
+    [Header("Dialogue Messages")]
+    public string name;
+    [TextArea]
+    public string[] sentances;
+
 
     public void Start()
     {
@@ -39,7 +47,7 @@ public class InteractionObject : MonoBehaviour
     }
     public void Dialouge()
     {
-        
+        dialogeManager.StartDialogue(sentances);
     }
 
     IEnumerator ShowInfo(string infoMessage, float waitTime)
