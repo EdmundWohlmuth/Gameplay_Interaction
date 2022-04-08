@@ -167,6 +167,7 @@ Transform:
   - {fileID: 2293349410891872273}
   - {fileID: 2293349410764556109}
   - {fileID: 2293349410150862288}
+  - {fileID: 1462936410}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -29415,6 +29416,141 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
+--- !u!1001 &1462936409
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 91466070}
+    m_Modifications:
+    - target: {fileID: 727213686715152186, guid: 14a67ba08db5c0943ac6299c54723da7,
+        type: 3}
+      propertyPath: m_Name
+      value: Gnome (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 727213686715152186, guid: 14a67ba08db5c0943ac6299c54723da7,
+        type: 3}
+      propertyPath: m_TagString
+      value: InterObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 727213686715152187, guid: 14a67ba08db5c0943ac6299c54723da7,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 727213686715152187, guid: 14a67ba08db5c0943ac6299c54723da7,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 727213686715152187, guid: 14a67ba08db5c0943ac6299c54723da7,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 727213686715152187, guid: 14a67ba08db5c0943ac6299c54723da7,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 727213686715152187, guid: 14a67ba08db5c0943ac6299c54723da7,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 727213686715152187, guid: 14a67ba08db5c0943ac6299c54723da7,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 727213686715152187, guid: 14a67ba08db5c0943ac6299c54723da7,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 727213686715152187, guid: 14a67ba08db5c0943ac6299c54723da7,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 727213686715152187, guid: 14a67ba08db5c0943ac6299c54723da7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 727213686715152187, guid: 14a67ba08db5c0943ac6299c54723da7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 727213686715152187, guid: 14a67ba08db5c0943ac6299c54723da7,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136726361917521962, guid: 14a67ba08db5c0943ac6299c54723da7,
+        type: 3}
+      propertyPath: m_TagString
+      value: InterObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 2001973478556150826, guid: 14a67ba08db5c0943ac6299c54723da7,
+        type: 3}
+      propertyPath: name
+      value: Gnomer
+      objectReference: {fileID: 0}
+    - target: {fileID: 2001973478556150826, guid: 14a67ba08db5c0943ac6299c54723da7,
+        type: 3}
+      propertyPath: interType
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2001973478556150826, guid: 14a67ba08db5c0943ac6299c54723da7,
+        type: 3}
+      propertyPath: dialogeManager
+      value: 
+      objectReference: {fileID: 1401688533}
+    - target: {fileID: 2001973478556150826, guid: 14a67ba08db5c0943ac6299c54723da7,
+        type: 3}
+      propertyPath: sentances.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2001973478556150826, guid: 14a67ba08db5c0943ac6299c54723da7,
+        type: 3}
+      propertyPath: sentances.Array.data[0]
+      value: Hoo I'm Nomer Two
+      objectReference: {fileID: 0}
+    - target: {fileID: 2001973478556150826, guid: 14a67ba08db5c0943ac6299c54723da7,
+        type: 3}
+      propertyPath: sentances.Array.data[1]
+      value: hoo hoo
+      objectReference: {fileID: 0}
+    - target: {fileID: 2001973478556150826, guid: 14a67ba08db5c0943ac6299c54723da7,
+        type: 3}
+      propertyPath: sentances.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2796819840930588551, guid: 14a67ba08db5c0943ac6299c54723da7,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2796819840930588551, guid: 14a67ba08db5c0943ac6299c54723da7,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5822961390829842617, guid: 14a67ba08db5c0943ac6299c54723da7,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.05
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 14a67ba08db5c0943ac6299c54723da7, type: 3}
+--- !u!4 &1462936410 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 727213686715152187, guid: 14a67ba08db5c0943ac6299c54723da7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1462936409}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1806526503
 GameObject:
   m_ObjectHideFlags: 0
